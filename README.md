@@ -1,21 +1,21 @@
 # Cache Viewer
 
-A Windows desktop app built with Electron that scans, groups, and manages every cache on your system. See exactly how much disk space is used by browser caches, temporary files, Windows system caches, app caches, and the Recycle Bin — all in one place.
+A Windows desktop app built with Electron that scans, groups, and manages every cache on your system. See exactly how much disk space is used by browser caches, temporary files, Windows system caches, app caches, and the Recycle Bin - all in one place.
 
 ![Cache Viewer](https://img.shields.io/badge/platform-Windows-blue) ![Electron](https://img.shields.io/badge/Electron-28-47848F) ![License](https://img.shields.io/badge/license-MIT-green)
 
 ## Features
 
-- **Five cache groups** — Browser, Temporary Files, Windows Cache, App Cache, Recycle Bin
-- **Multi-profile browser detection** — finds Chrome, Edge, Brave, Firefox, Opera, Vivaldi caches across all user profiles (Default, Profile 1, Profile 2, etc.)
-- **Accurate sizes** — uses binary `$I` metadata files for Recycle Bin sizes (fixes 2 GB overflow from Shell.Application COM API)
-- **File browser** — click any group to see a sortable file list with name, type, size, and modified date
-- **Select All / Deselect All** — checkbox in column header with indeterminate state support
-- **Bulk delete** — select specific files or delete an entire cache folder at once
-- **Confirmation dialog** — prevents accidental deletions
-- **Search / filter** — filter files by name within any cache group
-- **Open in Explorer** — jump directly to any cache folder
-- **Sidebar summary** — total cache size across all groups shown at a glance
+- **Five cache groups** - Browser, Temporary Files, Windows Cache, App Cache, Recycle Bin
+- **Multi-profile browser detection** - finds Chrome, Edge, Brave, Firefox, Opera, Vivaldi caches across all user profiles (Default, Profile 1, Profile 2, etc.)
+- **Accurate sizes** - uses binary `$I` metadata files for Recycle Bin sizes (fixes 2 GB overflow from Shell.Application COM API)
+- **File browser** - click any group to see a sortable file list with name, type, size, and modified date
+- **Select All / Deselect All** - checkbox in column header with indeterminate state support
+- **Bulk delete** - select specific files or delete an entire cache folder at once
+- **Confirmation dialog** - prevents accidental deletions
+- **Search / filter** - filter files by name within any cache group
+- **Open in Explorer** - jump directly to any cache folder
+- **Sidebar summary** - total cache size across all groups shown at a glance
 - **Custom frameless window** with minimize, maximize, and close controls
 
 ## Cache Groups
