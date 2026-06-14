@@ -1,0 +1,15 @@
+{
+  "name": "show-cache",
+  "version": "1.0.0",
+  "description": "Desktop app to browse and manage Windows cache by group",
+  "main": "main.js",
+  "author": "Cache Viewer",
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-packager . \"Cache Viewer\" --platform=win32 --arch=x64 --out=dist --overwrite --ignore=\"(\\.git|dist|build)\""
+  },
+  "devDependencies": {
+    "electron": "^28.3.3",
+    "electron-packager": "^17.1.2"
+  }
+}
